@@ -1,8 +1,6 @@
 // '...' this does deep copy of first level and shallow copy if 
 // obj or array is nested
 
-const { objectOf } = require("prop-types");
-
 // DEEP COPY POLYFILL
 
 let person = {
