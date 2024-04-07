@@ -15,7 +15,7 @@ const c = 2000;
 
 }
 
-fn()
+//fn()
 
 console.log(a);// shawdowing
 
@@ -31,3 +31,10 @@ console.log(c);
 //     var d = 100; //  illegal shadowing -> becoz var has global scope 
 //     let e = 9; //  this is ok -> bcoz let is limited to {}
 // }
+
+let x = 20;
+function y() {
+ var x = 10;
+}
+y()
+console.log("x is "+x);
